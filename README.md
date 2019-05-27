@@ -4,7 +4,29 @@
 
 2. LIRI can search Spotify for songs, Bands in Town for concerts, and OMDB for movies.
 
-3. LIRI can accept one of the following commands:
+3. To-Do before running the App:
+    - Clone repo to your local computer
+    - cd into the repo
+    - npm install to install all of the dependencies from package.json
+    -  Next, create a file named `.env`, add the following to it, replacing the values with your API keys (no quotes) once you have them:
+    
+    ```js
+    # Spotify API keys
+    
+    SPOTIFY_ID=your-spotify-id
+    SPOTIFY_SECRET=your-spotify-secret
+
+    * The Spotify API requires you sign up as a developer to generate the necessary credentials. You can follow these steps in order to generate a **client id** and **client secret**:
+    
+    * Step One: Visit <https://developer.spotify.com/my-applications/#!/>
+    
+    * Step Two: Either login to your existing Spotify account or create a new one (a free account is fine) and log in.
+    
+    * Step Three: Once logged in, navigate to <https://developer.spotify.com/my-applications/#!/applications/create> to register a new application to be used with the Spotify API. You can fill in whatever you'd like for these fields. When finished, click the "complete" button.
+    
+    * Step Four: On the next screen, scroll down to where you see your client id and client secret. Copy these values down somewhere, you'll need them to use the Spotify API and the [node-spotify-api package](https://www.npmjs.com/package/node-spotify-api).
+
+4. LIRI can accept one of the following commands:
     - **`concert-this`**
      example: `node liri.js concert-this <artist/band name here>`
         
@@ -60,15 +82,15 @@
         ![image](https://user-images.githubusercontent.com/47204339/58392902-03da6100-7ff1-11e9-81eb-5a40ad8b37c3.png)
         ![image](https://user-images.githubusercontent.com/47204339/58392923-1d7ba880-7ff1-11e9-8677-981d90a165e6.png)
 
-4. All commands will be logged in the log.txt file
+5. All commands will be logged in the log.txt file
         ![image](https://user-images.githubusercontent.com/47204339/58393011-7c412200-7ff1-11e9-914d-9187908d17a6.png)
 
-5. APIs used: 
+6. APIs used: 
         *[Node-Spotify-API](https://www.npmjs.com/package/node-spotify-api)
         *[OMDB API](http://www.omdbapi.com) 
         *[Bands In Town API](http://www.artists.bandsintown.com/bandsintown-api)
         
-6. NPM packages used: 
+7. NPM packages used: 
         * [Axios](https://www.npmjs.com/package/axios)
         *[Node-Spotify-API](https://www.npmjs.com/package/node-spotify-api)
         * [Moment](https://www.npmjs.com/package/moment)
