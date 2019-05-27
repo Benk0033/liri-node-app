@@ -32,11 +32,11 @@
         
         * This will search the Bands in Town Artist Events API for an artist and render the following information about each event to the terminal:
         
+        ```
         * Name of the venue
-        
-        * Venue location
-        
-        * Date of the Event (use moment to format this as "MM/DD/YYYY")
+        * Venue Location
+        * Date of the event
+        ```
         ![image](https://user-images.githubusercontent.com/47204339/58392586-89f5a800-7fef-11e9-92ff-e8face302cda.png)
 
     - **`spotify-this-song`**
@@ -44,13 +44,12 @@
     
         * This will show the following information about the song in your terminal/bash window
         
+        ```
         * Artist(s)
-        
         * The song's name
-        
         * A preview link of the song from Spotify
-        
         * The album that the song is from
+        ```
         ![image](https://user-images.githubusercontent.com/47204339/58392721-36378e80-7ff0-11e9-9d3a-a0f277ff8cce.png)
         
         * If no song is provided then your program will default to "The Sign" by Ace of Base.
